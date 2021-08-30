@@ -1,16 +1,29 @@
 .top-container{
-    background-color: #E4EDDB;
+    background-color: #E4F9F5;
     margin: 0px;
+    position: relative;
+    padding-top: 100px;
     
 }
 
 .title{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
     margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .middle-container{
@@ -24,3 +37,16 @@ body{
     width: 200px;
     background-color: grey;
 }
+
+.bottom-cloud{
+    position: absolute;
+    top: 200px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 60px;
+}
+
+
